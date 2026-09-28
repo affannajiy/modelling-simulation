@@ -1,0 +1,8 @@
+What is NetLogo
+- Used for ABM
+
+Wall Following Example
+Link: https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Code%20Examples/Wall%20Following%20Example.nlogox
+The turtles have different direction when outlining the wall.
+When sprouting the wall, this will be using random assignment of each patch to be a wall
+Then the turtle will try to keep its side on the wall.

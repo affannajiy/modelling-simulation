@@ -1,0 +1,188 @@
+What is a Threat?
+- Something that can bring a risk to your assets
+- If a risk is in the system is bad, there is a risk of threats
+Assets; hardwarre, software, data
+
+Any event, or person can cause a damange to an assets
+The threat can originate from accidental, environmental (natural disaster), and human failure
+For example, the data centre can get into a threat from flooding
+
+# Most critical threat that can contribute to the damage to assets is fire and power failure
+# CIA - Confidentiality, Integrity, Availability
+- If the data is private, the data is protected
+- The data is correct and trusted you can integrate with other systems
+- The data is available when you need it
+
+Threat Agent (Types)
+- Natural, Fire, Flood, Power Failure, Earthquakes (But not many country got earthquakes)
+- Unintentional - Insider, Outsider, Not harmful
+- Intentional (Most hostile) - Insider, Outsider
+# Most systems are now equipped with UPS (uninterrupted power supply)
+
+Components of a Threat
+1. Threat Agent
+2. Capability
+3. Threat Amplifiers
+4. Threat Catalyst
+5. Threat Agent Motivators
+
+Storyline, the threat usually have an actor, then they have the opportunity, motivation capability to do threat. But why? Because they have the motivation to do so and caused by catalyst (something that triggers the actor to do the threat), amplifier, and inhibitor.
+
+Component of a Threat
+1. Threat Agents
+- The people who would do the threat (Terrorist, Hackers)
+2. Capability
+- Software, Technology, Training Methods, Books and Manuals
+3. Threat Amplifiers (Making action more likely)
+- Peer pressure, perception, access to information, education level
+4. Threat Catalyst (Triggering action)
+- Events, technology change, personal circumstances
+5. Threat Agent Motivators
+- Political, secular, personal gain, religion, power, terrorism, and curiosity
+
+Top 10 Categories of threat
+1. Malware - software that can cause damage (Virus, Trojan)
+2. Ransonware - software that does not damage the system and they will ask for your money
+3. Phishing & Email Attacks - hook links through email, phising is general attack, spear-phishing is a specific attack
+4. Social Engineering - scam calls and then messages
+5. Password & Credential Attacks - brute force is a type of attack to guess the password, dictionary attack (common password list)
+6. Network Attacks - Packet Sniffing
+7. Denial of Service Attacks - DoS, DDoS make the requests to many times to a server and this breaksdown the webpage
+8. Web Application Attacks - SQL Injection, Cross Site Scripting
+9. Insider Threats - Malicious Employee, Negligent User, Data Theft
+10. Advanced Persistent Threats - Nation-state espionage, long term attacks
+
+#ASCII, 1 byte, each character has 8 bit, so password with at least 8 character, 8*8 = 64 bit, To break total is 2^64 = 18446744073709551616 combination (About 18.45 quintillion)
+
+Categories of Threat
+1. Software based (Malware, Ransomware)
+2. Human based (Phishing, Social Engineering, Insider Threats)
+3. Network based (Dos, DDoS)
+4. Application based threats (SQL Injection, XSS)
+5. Advanced targeted threats (Advanced Persistent Threats) - more difficult to detect
+
+Threat Modelling
+- A method for the person to figure how to actually model a threat
+- Should be performed early in the development process
+For example, in finance you have to deal with people's money, and the data integrity. So we use these cause to create a model of what probable attacks the system is likely to face
+
+Approaches: 
+- Abstraction of the system
+- Profiles of potential attackers - goals and threats
+- Catalogue of potential threats
+# If you are a network engineer, you need to know how to show the client how does the system with these security measures
+
+Typical Steps
+- Identifying threats
+- Determining and drawing diagram to potential attacks
+- perform reduction analysis
+- Solution to overcome Threat
+
+Threat Modelling
+- Organize the solutions to prevent threats
+- We are following the methods that are used as following;
+1. STRIDE
+# invented in 1999 and one of the most matured model used
+- Spoofing - Authentication
+- Tampering - Integrity
+- Repudiation - Non-repudiation
+- Information Disclosure - Confidentiality
+- Denial of Service (DoS) - Availability
+- Elevation of Privilege - Authorization
+
+2. PASTA
+- Process for Attack Simulation & Threat Analysis
+- Its a more like a process flow and how to model the Threat
+1. Define objective
+2. Define technical scope
+3. Decompostion
+4. Threat Analysis
+5. Vulnerabilites analysis
+6. Analysze model and simulation
+7. Risk analysis
+
+3. TRIKE
+- Open source threat modelling process
+1. Define system requirement
+2. Risk Assessment (CRUD) - Create, Read, Update, Deleting
+3. Data Flow diagram
+4. Assigning Risk Values
+
+Vulnerabilities
+- Any flaw in the computer system
+- Vulnerabilities can be compromised by a threat to our system
+# In Malaysia, regarding MCMC more on the information technology and SIRIM is concerned about the engineering and hardware standards
+# RFC - Request for Comment are a collection of document for standards and guidelines
+
+Examples
+1. Employee - Careless and unawareness
+2. Former Employee - Employees that are not satisfied by the last employer
+3. Technology - social engineering uses the human interaction, file sharing
+4. Software - the sofware need to be upated because there is no software that is 100% perfect such as phone OS that would need to be updated every few months
+5. Network - unprotected network
+6. Hardware - design flaws, out of date, misconfigured 
+# For example, firmware are included with BIOS and Kernel. However hardware always different and each hardware will be very different. Each of these firmware have the basic operations like we can plug in a USB and it works because of these firmware/drivers. Sometimes the firmware also has a vulnerability. Firmware is more important than software updates.
+7. IT Management - insufficient IT capacity, implement new policy but people don't follow
+
+Identifying vulnerabilities
+- National vulnerabilities database
+- Common vulnerabilities and exposures
+- Vendor website security bulletin
+- Security scan of an application using third party tools (E.g port scanning using tools)
+- Application testing and observations
+- Regularly monitoring security vulnerbilities
+
+Find open ports - Nmap
+Chek a server - Nessus/OpenVas
+Analyse suspicious network - Wireshark
+SQL Injection Webssite - Burp Suite OWASP
+Validate vulnerability - Metasploit
+
+Vulnerabilities Assesment
+1. Identify
+2. Analyse
+3. Assess
+4. Remediation
+5. Update 
+
+Risks
+- The concept is that the threat, asset, and vulnerabilities are group together there will be a risk
+
+What is it?
+- A potential of a given threat that can exploit vulnerabilities to cause harmfu
+Risk Management
+- We do the assessment of the risk
+- We have to determine the likelihood and impact of the risk
+
+Risk Assesment
+- Analysis of the risk
+
+Risk = Threats * Vulnerabilities
+- Because the risk of a system depends on the threats and vulnerabilities
+For example, finance company has threats list and then quantify the seriousness of the threat to the business. For vulnerabilties, then we decide what they would do to the system. Then do the calculation.
+Another example, a threat of system failure is (high), its vulnerable because air conditioning is old (high), our asset which is the server will be down (high), and risk is the potential loss (high). Therefore, the solution buy new air conditioning system
+
+Attacks
+- security attack have passive and active attack
+# Passive, generally okay, then somehing happen, if someone cause or do it then its active
+
+Passive Attacks
+- Not necessarily damaging your system but someone obtains the data from the system
+- Eavesdropping and monitoring the data
+Example, release of message contents and traffic analysis
+Another example, Bob send message to Aice, the Darth eavesdrop and get the message intended for Alice. Darth is can see the information and analyse the traffic witshout them both even knowing.
+
+Active Attacks : Masquerade
+- Now Darth can impersonate Bob and message Alice, system still work, but the information is now from Darth and Alice doesn't even know that she is not talking to the true Bob.
+# Credential theft, we take the credential from the user
+
+Active Attacks : Replay
+- Bob sends info to Alice, but actually Darth still listens to Bob and Alice however then Darth will reenact how to breach the system based on the information he keeps asking Alice. 
+
+Active Attacks : Modification of Messages
+- Bob sends message to Alice, but Darth can modify the message and send it to Alice.
+# MCMC can trace back what went on with the transactions of messages obtained from the ISP
+
+Active Attacks : Denial of Service
+- Bob wants to access a server/website. But Darth can take the server down and make it unavailable to Bob.
+- This keeps requesting the server over and over again until it is down.
