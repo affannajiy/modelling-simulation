@@ -1,0 +1,10 @@
+Scenario,Products Generated,Completed,Rejected,Reworked,Work In Progress,Machine Breakdowns,Average Waiting Time (min),Average Queue Length,Machine Utilization (%),Inspector Utilization (%),Packaging Utilization (%),Average Cycle Time (min),Throughput (products/min),Production Efficiency (%),Simulation Time (min)
+Base,95.9,88.1,0.9,9.6,6.9,5.6,3.8,1.54,89.77,84.37,55.17,15.76,0.37,91.87,240.0
+Task 1 - 4 machines,96.6,89.9,0.7,9.1,6.0,6.0,2.68,1.09,68.06,84.46,56.81,14.75,0.37,93.11,240.0
+Task 2 - 70% pass,96.1,73.4,7.2,25.0,15.5,6.2,12.82,5.22,96.0,90.12,45.96,24.27,0.31,76.57,240.0
+Task 3 - arrivals 1-2 min,160.0,96.2,0.4,12.0,63.4,6.5,43.89,29.24,98.78,92.31,60.91,53.0,0.4,60.17,240.0
+Task 4 - 3 packaging,95.8,87.6,1.6,10.4,6.6,5.8,4.43,1.8,90.26,84.33,36.49,16.45,0.36,91.46,240.0
+Task 5 - 20% failure,95.5,83.8,0.7,7.8,11.0,20.1,9.12,3.62,95.01,77.23,52.75,21.57,0.35,87.81,240.0
+Task 6 - 480 min,193.1,183.7,2.3,19.6,7.1,11.6,4.98,2.03,91.06,87.02,57.44,16.96,0.38,95.16,480.0
+Task 7 - 30% VIP,95.5,88.7,0.8,9.2,6.0,5.4,3.59,1.46,89.03,83.94,55.33,15.56,0.37,92.87,240.0
+Task 8 - Factory A,95.8,65.1,0.9,7.1,29.8,3.7,32.53,12.98,98.35,61.41,41.16,42.0,0.27,68.01,240.0
