@@ -1,0 +1,28 @@
+Discrete Event Simulation
+So, its more of like a instantaneous event. Therefore, someone joins the meeting. First, lecturer joins meeting, then student A joins the meeting, student B joins the meeting. It can be in any system, classrooms, factory, office. It can take account any venue like a machine or a mechanical system. They can estimate resources and its pretty straightforward in terms of efficiency. 
+
+DES does not take account the time or the counting of any repetitive occurrences (heartbeat, breathing, seconds in time). We are more concerns regarding the events that happens throughout the day. 
+
+The event is important which encompasses the change of state. So the change of state is rather the from what the stuff is being done to change to what the stuff that will be done. Schedule events will sometimes trigger other occurence of event that will converge back to the original sequence of event.
+
+The metrics that can be used are the waiting time or the length of the queue. This will be used to measure the performance of the system. Statistical distribution is important for DES can affect their manufacturing, their management efficiency.
+
+Link: https://github.com/nordinzakaria/ABMSimulation/blob/main/DES.py
+
+Python Expovariate is a function for the exponential distribution. In simple words, this function will generate a random number based on the exponential distribution. There will have a lot of distribution like Uniform distribution, Normal distribution, Poisson distribution.
+
+Entity: The items that flow through the system. E.g: Customers, Jobs, Parts
+Events: Instantaneous occurrences that change state. E.g: Arrivals, Service Completion
+Resources: Limited services or equipment. E.g: Servers, Machine
+Queues/Buffers: Places where entities wait for resources
+State Variables: Quantities describing the current system. E.g: Queue lentgh, Resource Status. 
+Event list/Calendar: Schedule of future events the simulator processes in time order.
+
+# We would think in terms of efficiency of the system. So, measuring the queue length against the customer satisfactions.
+
+Its very used in terms of business application such as What-If Analysis, Capacity Planning, Bottleneck Identification, Policy Testing, Scheduling, and Layout Evaluation. For example, Banks, Call Centres, Restaurants, Petrol Stations.
+
+In Python random.random(), is takes a random number from a continuous uniform distribution between 0 and 1. Then for the usual codes we need to run it multiple times.
+
+Task
+Suppose you have X = 10 from a distribution N(12,3). Calculate the corresponding value in N(0,1)
